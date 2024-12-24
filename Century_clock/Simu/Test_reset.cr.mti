@@ -1,0 +1,15 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module input_money
+
+Top level modules:
+	input_money
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_input_money
+
+Top level modules:
+	test_input_money
+
+} {} {}}

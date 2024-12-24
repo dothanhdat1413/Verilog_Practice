@@ -1,0 +1,92 @@
+{C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module carry_ripple_adder
+
+Top level modules:
+	carry_ripple_adder
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_mul
+
+Top level modules:
+	test_mul
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/CSA.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/CSA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/comparator.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/comparator.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_div
+
+Top level modules:
+	test_div
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/neg.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/neg.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module neg
+
+Top level modules:
+	neg
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/sub.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/sub.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sub
+
+Top level modules:
+	sub
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/CPA.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/CPA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CPA
+
+Top level modules:
+	CPA
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_CSA
+
+Top level modules:
+	test_CSA
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/mul.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/mul.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul
+
+Top level modules:
+	mul
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/add.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/add.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}}

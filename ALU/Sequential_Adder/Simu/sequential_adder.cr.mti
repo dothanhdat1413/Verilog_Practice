@@ -1,0 +1,15 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_sequential_adder
+
+Top level modules:
+	test_sequential_adder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sequential_adder
+
+Top level modules:
+	sequential_adder
+
+} {} {}}

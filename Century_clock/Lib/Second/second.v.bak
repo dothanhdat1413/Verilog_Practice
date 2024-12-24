@@ -1,0 +1,26 @@
+module second (
+    input clk,
+    input rst,
+    input en,
+    output [3:0] second_0,
+    output [3:0] second_1,
+    output ss_to_hh_en;
+    );
+
+    counter_mod_10 #(.MAX(9)) num_0(
+        .clk(clk),
+        .rst(rst),
+        .en(en),
+        .bin_num(second_0)
+    );
+
+    counter_mod_10 #(.MAX(5)) num_1(
+        .clk(clk),
+        .rst(rst),
+        .en((second_0 == 9) && en),
+        .bin_num(second_1)
+    );
+
+    assign ss_to_hh_en = (second_0 == 9) && (second_1 == 5);
+    
+endmodule

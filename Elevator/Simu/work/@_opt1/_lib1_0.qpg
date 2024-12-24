@@ -1,0 +1,324 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/Questasim/Install/examples
+T_opt
+!s110 1727545189
+V`YPCQZgTIz0k=7?`Qkf>S1
+04 16 4 work test_cus_counter fast 0
+=1-b42e998d9316-66f83f65-21d-2198
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1727554111
+V_<^o2:eMzTY`C2zmzSmJ50
+Z6 04 13 4 work test_elevator fast 0
+=45-b42e998d9316-66f8623f-78-5bfc
+R2
+R3
+R4
+n@_opt1
+R5
+T_opt2
+!s110 1727526545
+VYV1Ak70e3Fj19i77RfO712
+R6
+=3-b03cdc26cd7a-66f7f691-1fa-2c90
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+vcall_floor
+!s110 1727554108
+!i10b 1
+!s100 <;^hn]^4XdIGIC8EHiVUH3
+I^A02U4>n0T?5FjS]YV:^G3
+Z7 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/Simu
+w1727544072
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v
+!i122 803
+L0 1 62
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1727554108.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vchoose_floor
+Z12 !s110 1727554109
+!i10b 1
+!s100 aRX3;TeUH1Ik3edYkh5gY2
+IPn_nI6>>W9jZbIK5B3JQ>1
+R7
+w1727520384
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v
+!i122 806
+L0 1 23
+R8
+R9
+r1
+!s85 0
+31
+Z13 !s108 1727554109.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v|
+!i113 0
+R11
+R4
+vclock
+R12
+!i10b 1
+!s100 L1NiOZjeNIz5IcQkTFNV53
+InfOkC8f]QTK3hZFC<ZJ];2
+R7
+w1727462024
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v
+!i122 804
+L0 2 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v|
+!i113 0
+R11
+R4
+vcounter
+!s110 1727462421
+!i10b 1
+!s100 _DOY5FFRehh`W^MEnRBLU1
+IZWBbCBTcano=8i3?G6^YY2
+R7
+w1727333880
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/counter.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/counter.v
+!i122 77
+Z14 L0 1 47
+R8
+R9
+r1
+!s85 0
+31
+!s108 1727462421.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/counter.v|
+!i113 0
+R11
+R4
+vcus_counter
+R12
+!i10b 1
+!s100 @GS2jKi6Z_T9[N`5@F[^D1
+I5;85dYEC`;ZW6<UbEGCge1
+R7
+w1727545117
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v
+!i122 805
+L0 1 43
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v|
+!i113 0
+R11
+R4
+velevator
+R12
+!i10b 1
+!s100 IA:nnQmIBL]nG^PJjgSCX1
+I=n5GzFIbDl4SI1e?35D0g0
+R7
+w1727554034
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v
+!i122 807
+L0 1 385
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v|
+!i113 0
+R11
+R4
+vseven_seg_decoder
+R12
+!i10b 1
+!s100 fCKM[OjboOh[[C:A=CmC]1
+I86T3K:jzdSk[bM>7NDYUB1
+R7
+w1724387633
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v
+!i122 808
+R14
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v|
+!i113 0
+R11
+R4
+vtest_call_floor
+R12
+!i10b 1
+!s100 ZOO=WEWLFlZ`b`QQ`IZG61
+IVCL4iPWMT`Ud548azcZjh3
+R7
+w1727525107
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_call_floor.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_call_floor.v
+!i122 809
+L0 1 50
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_call_floor.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_call_floor.v|
+!i113 0
+R11
+R4
+vtest_cus_counter
+R12
+!i10b 1
+!s100 EEnlS<@^3_dU?VD_769cU2
+IYV2Mg:L5G][Ph7PaQC04L1
+R7
+w1727335735
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_cus_counter.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_cus_counter.v
+!i122 810
+L0 2 38
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_cus_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_cus_counter.v|
+!i113 0
+R11
+R4
+vtest_elevator
+R12
+!i10b 1
+!s100 aQJTb6o`bAHXY:4AKIES]3
+I;G4W<U7G[YRi]5bBf9B6L0
+R7
+w1727554105
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_elevator.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_elevator.v
+!i122 811
+L0 1 48
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_elevator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevat

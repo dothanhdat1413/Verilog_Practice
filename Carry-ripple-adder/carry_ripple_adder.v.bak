@@ -1,0 +1,47 @@
+module carry_ripple_adder 
+    #(    parameter WIDTH = 6 )(
+    input [WIDTH:0] num1, num2,
+    input c_in,
+    output [WIDTH:0] sum,
+    output c_out
+    );
+
+    genvar i;
+    wire [(WIDTH -1):0] c_out_t;
+
+    task fulladd;
+        input num1, num2, c_in;
+        output sum, c_out;
+            begin
+                sum = num1 ^ num2 ^ c_in;
+                c_out = (num1 & num2) | (num1 & c_in) | (num2 & c_in);
+            end
+    endtask
+    
+    fulladd add_bit_0(
+        .num1(num1[0]),
+        .num2(num2[0]),
+        .c_in(c_in),
+        .sum(sum[0]),
+        .c_out(c_out_t[0])
+        );
+    generate
+        for(i = 1; i < WIDTH; i = i + 1) begin
+            fulladd add_bit(
+                .num1(num1[i]),
+                .num2(num2[i]),
+                .c_in(c_out_t[i-1]),
+                .sum(sum[i]),
+                .c_out(c_out_t[i])
+                );
+        end
+    endgenerate
+
+    fulladd add_bit_7(
+        .num1(num1[WIDTH]),
+        .num2(num2[WIDTH]),
+        .c_in(c_out_t[WIDTH-1]),
+        .sum(sum[WIDTH]),
+        .c_out(c_out)
+    );
+endmodule

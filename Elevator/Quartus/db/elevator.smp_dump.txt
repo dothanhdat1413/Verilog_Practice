@@ -1,0 +1,13 @@
+
+State Machine - |elevator|state
+Name state.MOVE state.IDLE state.OPEN 
+state.IDLE 0 0 0 
+state.OPEN 0 1 1 
+state.MOVE 1 1 0 
+
+State Machine - |elevator|move_dir
+Name move_dir.UP_DIR move_dir.U_STOP_DIR move_dir.DOWN_DIR move_dir.D_STOP_DIR 
+move_dir.D_STOP_DIR 0 0 0 0 
+move_dir.DOWN_DIR 0 0 1 1 
+move_dir.U_STOP_DIR 0 1 0 1 
+move_dir.UP_DIR 1 0 0 1 

@@ -1,0 +1,77 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/Simu_pc
+T_opt
+!s110 1728141410
+VT9Od;dj:E6YPWm?YbB`ZE3
+04 13 4 work test_debounce fast 0
+=14-b42e998d9316-67015861-361-a04
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vdebounce
+Z2 !s110 1728141406
+!i10b 1
+!s100 0h@iCGEkmL=19a=jMC;[i3
+IoYGm^9:ZRGPGLM7T[MW?z0
+Z3 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/Simu
+w1728141233
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/debounce.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/debounce.v
+!i122 29
+L0 1 44
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1728141406.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/debounce.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/debounce.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtest_debounce
+R2
+!i10b 1
+!s100 VCmDM=igXJj7TAPmK7o]X0
+IWcL;;K7G9QT?:YoNF=m3G1
+R3
+w1728141403
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/test_debounce.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/test_debounce.v
+!i122 30
+L0 3 47
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/test_debounce.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Debounce/test_debounce.v|
+!i113 0
+R7
+R1

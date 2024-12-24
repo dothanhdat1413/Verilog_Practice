@@ -1,0 +1,210 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dK:/Questasim
+T_opt
+!s110 1724839848
+V;zJVTl?fN@4EYzk@8:CVf2
+Z2 04 10 4 work test_clock fast 0
+=1-b42e998d9316-66cef7a7-2e6-2b60
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work Century_clock
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+T_opt1
+!s110 1724750510
+VoZWdd40VI<L:fbjPI9I:g1
+04 8 4 work test_all fast 0
+=4-b42e998d9316-66cd9aae-27e-4390
+R3
+o-quiet -auto_acc_if_foreign -work Century_clock +acc
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1724783456
+VdND0G77NjnVkGIYH3XTBc2
+R2
+=3-b42e998d9316-66ce1b60-2b5-26c0
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+vcentury_clock
+!s110 1724783496
+!i10b 1
+!s100 [3ZcTB[blUfNd??h8_dZK3
+I:>Sk[M:7GXDQ9Z_5@^OZi3
+Z7 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Simu
+w1724745160
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/century_clock.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/century_clock.v
+!i122 125
+L0 1 28
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1724783496.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/century_clock.v|
+!s90 -reportprogress|300|-work|Century_clock|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/century_clock.v|
+!i113 0
+Z10 o-work Century_clock -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vclock
+Z11 !s110 1724839833
+!i10b 1
+!s100 F1W[`1OCEiYHd3<:[CD?_3
+IGzD59dOX0In]?UMzAe9dD0
+R7
+w1724838186
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v
+!i122 186
+L0 1 17
+R8
+R9
+r1
+!s85 0
+31
+Z12 !s108 1724839833.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vcounter_mod_10
+R11
+!i10b 1
+!s100 P7d4a[]aW9@2[7AR_<Ge>3
+Id6z7EBAKYd22`14=Poe>z2
+R7
+w1724784552
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v
+!i122 188
+L0 1 29
+R8
+R9
+r1
+!s85 0
+31
+R12
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v|
+!i113 0
+R13
+R5
+vsecond
+R11
+!i10b 1
+!s100 eGBU<LRB0HUW1@::4M1M31
+I`dPV@]Fj1_lnk_[_33zU;2
+R7
+w1724783733
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v
+!i122 184
+L0 1 26
+R8
+R9
+r1
+!s85 0
+31
+R12
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v|
+!s90 -reportprogress|300|-work|Century_clock|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v|
+!i113 0
+R10
+R5
+vseven_seg_decoder
+R11
+!i10b 1
+!s100 fCKM[OjboOh[[C:A=CmC]1
+I:YlQ]Pf5I>V^SjJR_k_S[0
+R7
+w1724387633
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v
+!i122 183
+L0 1 47
+R8
+R9
+r1
+!s85 0
+31
+R12
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|Century_clock|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v|
+!i113 0
+R10
+R5
+vtest_all
+R11
+!i10b 1
+!s100 e46S6zIHFU8>^dlQ<f]bQ3
+I8IfS4fMPh[YK0@G=N4T6P1
+R7
+w1724744790
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v
+!i122 185
+L0 2 38
+R8
+R9
+r1
+!s85 0
+31
+R12
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v|
+!s90 -reportprogress|300|-work|Century_clock|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v|
+!i113 0
+R10
+R5
+vtest_clock
+R11
+!i10b 1
+!s100 X]]F?:Y6e;BDFKkmcN<:11
+IYQ[o0A;zKkTLJKDHWhEQ=0
+R7
+w1724839799
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v
+!i122 187
+L0 2 36
+R8
+R9
+r1
+!s85 0
+31
+R12
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v|
+!i113 0
+R13
+R5

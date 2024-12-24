@@ -1,0 +1,6 @@
+##Thiết kế
+- Có các thanh ghi để lưu trạng thái đầu vào (tránh thay đổi đầu vào trong quá trình tính)
+- Giống bộ cộng Carry ripple adder, nhưng S, Carry sẽ được cập nhật theo xung clock 
+- Nếu cộng WIDTH bit thì sẽ cần WIDTH + 2 chu kỳ xung clock (WIDTH chu kỳ để cộng, 1 chu kỳ để lấy input, 1 chu kỳ để xuất output)
+##Test
+- Sử dụng vét cạn các trường hợp, cho A, B, Carry_in chạy hết tất các các trường hợp và xét Carry_out, Sum 

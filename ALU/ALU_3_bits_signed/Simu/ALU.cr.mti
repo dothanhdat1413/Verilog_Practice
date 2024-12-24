@@ -1,0 +1,137 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module neg
+
+Top level modules:
+	neg
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sub
+
+Top level modules:
+	sub
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_mul
+
+Top level modules:
+	test_mul
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CPA
+
+Top level modules:
+	CPA
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_comparator
+
+Top level modules:
+	test_comparator
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul
+
+Top level modules:
+	mul
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_div
+
+Top level modules:
+	test_div
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_CSA
+
+Top level modules:
+	test_CSA
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module signed_seven_seg_decoder
+
+Top level modules:
+	signed_seven_seg_decoder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_mul_seven_seg_decoder
+
+Top level modules:
+	test_mul_seven_seg_decoder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_ALU
+
+Top level modules:
+	test_ALU
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v} {2 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul_seven_seg_decoder
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(51): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(59): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(63): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(67): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(71): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(83): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(87): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(91): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v(99): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	mul_seven_seg_decoder
+
+} {} {}}

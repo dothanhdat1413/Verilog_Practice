@@ -1,0 +1,227 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Simu/Test_clock
+T_opt
+!s110 1725378405
+V>aRM>ST84SKF8WVaNe>RJ1
+Z2 04 8 4 work test_add fast 0
+=18-b42e998d9316-66d72f65-283-141c
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt2
+!s110 1725376776
+V7zaQg@GWY@9KUZYiAKLJZ0
+R2
+=1-b42e998d9316-66d72907-16a-5774
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt2
+R5
+R1
+vadd
+Z6 !s110 1725378403
+!i10b 1
+!s100 S_iJ5GK?8gDCzbI?6<5jX2
+IUYFHE>ceabDcLJHKP`>;n2
+Z7 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Simu
+w1725378192
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v
+!i122 155
+L0 1 20
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1725378403.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vinput_money
+Z12 !s110 1725379858
+!i10b 1
+!s100 Q4Ho?fOheRYURVaEVW0dE0
+IAQ?9V0g;oFkWC504B_7Od1
+R7
+w1725379819
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v
+!i122 165
+L0 1 103
+R8
+R9
+r1
+!s85 0
+31
+Z13 !s108 1725379858.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v|
+!i113 0
+R11
+R4
+vreset_day
+Z14 !s110 1724899275
+!i10b 1
+!s100 _jVM7zPPYI==dnE:]F?O23
+IQ8m_9O:Nl^@lH1EPfbJzY2
+R7
+w1724898657
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/reset_day.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/reset_day.v
+!i122 124
+L0 1 50
+R8
+R9
+r1
+!s85 0
+31
+Z15 !s108 1724899275.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/reset_day.v|
+!s90 -reportprogress|300|-work|Test_reset|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/reset_day.v|
+!i113 0
+Z16 o-work Test_reset -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtest_add
+R6
+!i10b 1
+!s100 ]`51SnQ?4<1]FhkV[W5@j0
+I5GA][Pe7[OBCJkf7n7n8c1
+R7
+w1725378364
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v
+!i122 156
+L0 2 41
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v|
+!i113 0
+R11
+R4
+vtest_input_money
+R12
+!i10b 1
+!s100 z9A:]TRb^0g1X^Y2X8m:03
+I]5iWX@SM^@=;Y>>1j_PYE3
+R7
+w1725379854
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v
+!i122 166
+L0 1 36
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v|
+!i113 0
+R11
+R4
+vtest_reset_day
+R14
+!i10b 1
+!s100 GYmWXgUaMn0zG@]zX6bhd3
+I=`G;hGDk;2W0ETo_8adjn1
+R7
+w1724899268
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/test_reset_day.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/test_reset_day.v
+!i122 125
+L0 2 188
+R8
+R9
+r1
+!s85 0
+31
+R15
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/test_reset_day.v|
+!s90 -reportprogress|300|-work|Test_reset|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Day/test_reset_day.v|
+!i113 0
+R16
+R4

@@ -1,0 +1,457 @@
+|vending_machine
+clear => _.IN1
+clk_in => clk_in.IN1
+rst_clk => rst_clk.IN1
+en => en_debounced.IN1
+en => comb.IN0
+money[0] => money[0].IN1
+money[1] => money[1].IN1
+money[2] => money[2].IN1
+get => mode.IN1
+goods => goods.IN1
+state[0] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[1] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[2] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[3] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[4] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[5] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[6] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[7] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[8] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[9] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[10] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[11] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[12] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[13] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[14] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[15] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[16] << always1.DB_MAX_OUTPUT_PORT_TYPE
+state[17] << always1.DB_MAX_OUTPUT_PORT_TYPE
+money_0[0] << seven_seg_decoder:money_0_seg.seg_num
+money_0[1] << seven_seg_decoder:money_0_seg.seg_num
+money_0[2] << seven_seg_decoder:money_0_seg.seg_num
+money_0[3] << seven_seg_decoder:money_0_seg.seg_num
+money_0[4] << seven_seg_decoder:money_0_seg.seg_num
+money_0[5] << seven_seg_decoder:money_0_seg.seg_num
+money_0[6] << seven_seg_decoder:money_0_seg.seg_num
+money_1[0] << seven_seg_decoder:money_1_seg.seg_num
+money_1[1] << seven_seg_decoder:money_1_seg.seg_num
+money_1[2] << seven_seg_decoder:money_1_seg.seg_num
+money_1[3] << seven_seg_decoder:money_1_seg.seg_num
+money_1[4] << seven_seg_decoder:money_1_seg.seg_num
+money_1[5] << seven_seg_decoder:money_1_seg.seg_num
+money_1[6] << seven_seg_decoder:money_1_seg.seg_num
+money_2[0] << seven_seg_decoder:money_2_seg.seg_num
+money_2[1] << seven_seg_decoder:money_2_seg.seg_num
+money_2[2] << seven_seg_decoder:money_2_seg.seg_num
+money_2[3] << seven_seg_decoder:money_2_seg.seg_num
+money_2[4] << seven_seg_decoder:money_2_seg.seg_num
+money_2[5] << seven_seg_decoder:money_2_seg.seg_num
+money_2[6] << seven_seg_decoder:money_2_seg.seg_num
+money_3[0] << seven_seg_decoder:money_3_seg.seg_num
+money_3[1] << seven_seg_decoder:money_3_seg.seg_num
+money_3[2] << seven_seg_decoder:money_3_seg.seg_num
+money_3[3] << seven_seg_decoder:money_3_seg.seg_num
+money_3[4] << seven_seg_decoder:money_3_seg.seg_num
+money_3[5] << seven_seg_decoder:money_3_seg.seg_num
+money_3[6] << seven_seg_decoder:money_3_seg.seg_num
+goods_0[0] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[1] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[2] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[3] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[4] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[5] << seven_seg_decoder:goods_0_seg.seg_num
+goods_0[6] << seven_seg_decoder:goods_0_seg.seg_num
+goods_1[0] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[1] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[2] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[3] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[4] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[5] << seven_seg_decoder:goods_1_seg.seg_num
+goods_1[6] << seven_seg_decoder:goods_1_seg.seg_num
+cash_0[0] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[1] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[2] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[3] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[4] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[5] << seven_seg_decoder:cash_0_seg.seg_num
+cash_0[6] << seven_seg_decoder:cash_0_seg.seg_num
+cash_1[0] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[1] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[2] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[3] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[4] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[5] << seven_seg_decoder:cash_1_seg.seg_num
+cash_1[6] << seven_seg_decoder:cash_1_seg.seg_num
+
+
+|vending_machine|clock:clock_module
+clk_in => clk_out~reg0.CLK
+clk_in => clock_count[0].CLK
+clk_in => clock_count[1].CLK
+clk_in => clock_count[2].CLK
+clk_in => clock_count[3].CLK
+clk_in => clock_count[4].CLK
+clk_in => clock_count[5].CLK
+clk_in => clock_count[6].CLK
+clk_in => clock_count[7].CLK
+clk_in => clock_count[8].CLK
+clk_in => clock_count[9].CLK
+clk_in => clock_count[10].CLK
+clk_in => clock_count[11].CLK
+clk_in => clock_count[12].CLK
+clk_in => clock_count[13].CLK
+clk_in => clock_count[14].CLK
+clk_in => clock_count[15].CLK
+clk_in => clock_count[16].CLK
+clk_in => clock_count[17].CLK
+clk_in => clock_count[18].CLK
+clk_in => clock_count[19].CLK
+clk_in => clock_count[20].CLK
+clk_in => clock_count[21].CLK
+clk_in => clock_count[22].CLK
+clk_in => clock_count[23].CLK
+clk_in => clock_count[24].CLK
+clk_in => clock_count[25].CLK
+clk_in => clock_count[26].CLK
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clk_out.OUTPUTSELECT
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|money:money_module
+money[0] => Decoder0.IN2
+money[0] => Decoder1.IN2
+money[0] => Decoder2.IN2
+money[0] => Decoder3.IN2
+money[0] => Mux0.IN10
+money[0] => Mux1.IN10
+money[0] => Mux2.IN10
+money[1] => Decoder0.IN1
+money[1] => Decoder1.IN1
+money[1] => Decoder2.IN1
+money[1] => Decoder3.IN1
+money[1] => Mux0.IN9
+money[1] => Mux1.IN9
+money[1] => Mux2.IN9
+money[2] => Decoder0.IN0
+money[2] => Decoder1.IN0
+money[2] => Decoder2.IN0
+money[2] => Decoder3.IN0
+money[2] => Mux0.IN8
+money[2] => Mux1.IN8
+money[2] => Mux2.IN8
+goods => Decoder4.IN0
+goods => Decoder5.IN0
+goods => Decoder6.IN0
+en => en.IN4
+mode => mode.IN4
+check => money_1_cal.OUTPUTSELECT
+check => money_1_cal.OUTPUTSELECT
+check => c_out_1.OUTPUTSELECT
+check => c_out_2.OUTPUTSELECT
+clear => clear.IN4
+money_0[0] <= calculate:cal_0.sum
+money_0[1] <= calculate:cal_0.sum
+money_0[2] <= calculate:cal_0.sum
+money_0[3] <= calculate:cal_0.sum
+money_1[0] <= calculate:cal_1.sum
+money_1[1] <= calculate:cal_1.sum
+money_1[2] <= calculate:cal_1.sum
+money_1[3] <= calculate:cal_1.sum
+money_2[0] <= calculate:cal_2.sum
+money_2[1] <= calculate:cal_2.sum
+money_2[2] <= calculate:cal_2.sum
+money_2[3] <= calculate:cal_2.sum
+money_3[0] <= calculate:cal_3.sum
+money_3[1] <= calculate:cal_3.sum
+money_3[2] <= calculate:cal_3.sum
+money_3[3] <= calculate:cal_3.sum
+
+
+|vending_machine|money:money_module|calculate:cal_0
+num_1[0] => Add2.IN4
+num_1[0] => Add4.IN7
+num_1[0] => Add8.IN9
+num_1[0] => Add5.IN4
+num_1[1] => Add2.IN3
+num_1[1] => Add4.IN6
+num_1[1] => Add8.IN8
+num_1[1] => Add5.IN3
+num_1[2] => Add2.IN2
+num_1[2] => Add4.IN5
+num_1[2] => Add8.IN7
+num_1[2] => Add5.IN2
+num_1[3] => Add2.IN1
+num_1[3] => Add4.IN4
+num_1[3] => Add8.IN6
+num_1[3] => Add5.IN1
+c_in => Add0.IN10
+c_in => Add3.IN8
+c_in => Add4.IN8
+c_in => Add9.IN64
+c_in => Add6.IN8
+mode => Decoder0.IN0
+en => temp[0].CLK
+en => temp[1].CLK
+en => temp[2].CLK
+en => temp[3].CLK
+clear => temp[0].ACLR
+clear => temp[1].ACLR
+clear => temp[2].ACLR
+clear => temp[3].ACLR
+sum[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|money:money_module|calculate:cal_1
+num_1[0] => Add2.IN4
+num_1[0] => Add4.IN7
+num_1[0] => Add8.IN9
+num_1[0] => Add5.IN4
+num_1[1] => Add2.IN3
+num_1[1] => Add4.IN6
+num_1[1] => Add8.IN8
+num_1[1] => Add5.IN3
+num_1[2] => Add2.IN2
+num_1[2] => Add4.IN5
+num_1[2] => Add8.IN7
+num_1[2] => Add5.IN2
+num_1[3] => Add2.IN1
+num_1[3] => Add4.IN4
+num_1[3] => Add8.IN6
+num_1[3] => Add5.IN1
+c_in => Add0.IN10
+c_in => Add3.IN8
+c_in => Add4.IN8
+c_in => Add9.IN64
+c_in => Add6.IN8
+mode => Decoder0.IN0
+en => temp[0].CLK
+en => temp[1].CLK
+en => temp[2].CLK
+en => temp[3].CLK
+clear => temp[0].ACLR
+clear => temp[1].ACLR
+clear => temp[2].ACLR
+clear => temp[3].ACLR
+sum[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|money:money_module|calculate:cal_2
+num_1[0] => Add2.IN4
+num_1[0] => Add4.IN7
+num_1[0] => Add8.IN9
+num_1[0] => Add5.IN4
+num_1[1] => Add2.IN3
+num_1[1] => Add4.IN6
+num_1[1] => Add8.IN8
+num_1[1] => Add5.IN3
+num_1[2] => Add2.IN2
+num_1[2] => Add4.IN5
+num_1[2] => Add8.IN7
+num_1[2] => Add5.IN2
+num_1[3] => Add2.IN1
+num_1[3] => Add4.IN4
+num_1[3] => Add8.IN6
+num_1[3] => Add5.IN1
+c_in => Add0.IN10
+c_in => Add3.IN8
+c_in => Add4.IN8
+c_in => Add9.IN64
+c_in => Add6.IN8
+mode => Decoder0.IN0
+en => temp[0].CLK
+en => temp[1].CLK
+en => temp[2].CLK
+en => temp[3].CLK
+clear => temp[0].ACLR
+clear => temp[1].ACLR
+clear => temp[2].ACLR
+clear => temp[3].ACLR
+sum[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|money:money_module|calculate:cal_3
+num_1[0] => Add2.IN4
+num_1[0] => Add4.IN7
+num_1[0] => Add8.IN9
+num_1[0] => Add5.IN4
+num_1[1] => Add2.IN3
+num_1[1] => Add4.IN6
+num_1[1] => Add8.IN8
+num_1[1] => Add5.IN3
+num_1[2] => Add2.IN2
+num_1[2] => Add4.IN5
+num_1[2] => Add8.IN7
+num_1[2] => Add5.IN2
+num_1[3] => Add2.IN1
+num_1[3] => Add4.IN4
+num_1[3] => Add8.IN6
+num_1[3] => Add5.IN1
+c_in => Add0.IN10
+c_in => Add3.IN8
+c_in => Add4.IN8
+c_in => Add9.IN64
+c_in => Add6.IN8
+mode => Decoder0.IN0
+en => temp[0].CLK
+en => temp[1].CLK
+en => temp[2].CLK
+en => temp[3].CLK
+clear => temp[0].ACLR
+clear => temp[1].ACLR
+clear => temp[2].ACLR
+clear => temp[3].ACLR
+sum[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:money_0_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:money_1_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:money_2_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:money_3_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:goods_0_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:goods_1_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:cash_0_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vending_machine|seven_seg_decoder:cash_1_seg
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

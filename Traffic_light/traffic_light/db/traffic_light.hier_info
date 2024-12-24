@@ -1,0 +1,342 @@
+|traffic_light
+clk_in => clk_in.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => check.OUTPUTSELECT
+rst => rst_green.ENA
+rst => en_green.ENA
+rst => rst_red.ENA
+rst => en_red.ENA
+rst => rst_yellow.ENA
+rst => en_yellow.ENA
+en => comb.IN1
+en => comb.IN1
+en => comb.IN1
+rst_clk => rst_clk.IN1
+car => always0.IN1
+car => Selector4.IN3
+car => always0.IN1
+car => Selector8.IN1
+car => always0.IN1
+highway_0[0] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[1] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[2] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[3] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[4] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[5] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_0[6] <= seven_seg_decoder:decoder_highway_0.seg_num
+highway_1[0] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[1] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[2] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[3] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[4] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[5] <= seven_seg_decoder:decoder_highway_1.seg_num
+highway_1[6] <= seven_seg_decoder:decoder_highway_1.seg_num
+country_0[0] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[1] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[2] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[3] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[4] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[5] <= seven_seg_decoder:decoder_country_0.seg_num
+country_0[6] <= seven_seg_decoder:decoder_country_0.seg_num
+country_1[0] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[1] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[2] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[3] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[4] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[5] <= seven_seg_decoder:decoder_country_1.seg_num
+country_1[6] <= seven_seg_decoder:decoder_country_1.seg_num
+check <= check~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_out[0] <= state_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_out[1] <= state_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_out[2] <= state_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_out[3] <= state_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[0] <= road[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[1] <= road[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[2] <= road[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[3] <= road[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[4] <= road[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[5] <= road[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[6] <= road[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[7] <= road[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[8] <= road[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[9] <= road[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[10] <= road[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[11] <= road[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[12] <= road[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[13] <= road[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[14] <= road[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[15] <= road[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[16] <= road[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+road[17] <= road[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|clock:clock_module
+clk_in => clk_out~reg0.CLK
+clk_in => clock_count[0].CLK
+clk_in => clock_count[1].CLK
+clk_in => clock_count[2].CLK
+clk_in => clock_count[3].CLK
+clk_in => clock_count[4].CLK
+clk_in => clock_count[5].CLK
+clk_in => clock_count[6].CLK
+clk_in => clock_count[7].CLK
+clk_in => clock_count[8].CLK
+clk_in => clock_count[9].CLK
+clk_in => clock_count[10].CLK
+clk_in => clock_count[11].CLK
+clk_in => clock_count[12].CLK
+clk_in => clock_count[13].CLK
+clk_in => clock_count[14].CLK
+clk_in => clock_count[15].CLK
+clk_in => clock_count[16].CLK
+clk_in => clock_count[17].CLK
+clk_in => clock_count[18].CLK
+clk_in => clock_count[19].CLK
+clk_in => clock_count[20].CLK
+clk_in => clock_count[21].CLK
+clk_in => clock_count[22].CLK
+clk_in => clock_count[23].CLK
+clk_in => clock_count[24].CLK
+clk_in => clock_count[25].CLK
+clk_in => clock_count[26].CLK
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clock_count.OUTPUTSELECT
+rst => clk_out.OUTPUTSELECT
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:red
+clk => clk.IN2
+rst => comb.IN1
+rst => comb.IN1
+en => comb.IN1
+en => comb.IN1
+num_0[0] <= counter:counter_num_0.bin_num
+num_0[1] <= counter:counter_num_0.bin_num
+num_0[2] <= counter:counter_num_0.bin_num
+num_0[3] <= counter:counter_num_0.bin_num
+num_1[0] <= counter:counter_num_1.bin_num
+num_1[1] <= counter:counter_num_1.bin_num
+num_1[2] <= counter:counter_num_1.bin_num
+num_1[3] <= counter:counter_num_1.bin_num
+done <= done.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:red|counter:counter_num_0
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:red|counter:counter_num_1
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:green
+clk => clk.IN2
+rst => comb.IN1
+rst => comb.IN1
+en => comb.IN1
+en => comb.IN1
+num_0[0] <= counter:counter_num_0.bin_num
+num_0[1] <= counter:counter_num_0.bin_num
+num_0[2] <= counter:counter_num_0.bin_num
+num_0[3] <= counter:counter_num_0.bin_num
+num_1[0] <= counter:counter_num_1.bin_num
+num_1[1] <= counter:counter_num_1.bin_num
+num_1[2] <= counter:counter_num_1.bin_num
+num_1[3] <= counter:counter_num_1.bin_num
+done <= done.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:green|counter:counter_num_0
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:green|counter:counter_num_1
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:yellow
+clk => clk.IN2
+rst => comb.IN1
+rst => comb.IN1
+en => comb.IN1
+en => comb.IN1
+num_0[0] <= counter:counter_num_0.bin_num
+num_0[1] <= counter:counter_num_0.bin_num
+num_0[2] <= counter:counter_num_0.bin_num
+num_0[3] <= counter:counter_num_0.bin_num
+num_1[0] <= counter:counter_num_1.bin_num
+num_1[1] <= counter:counter_num_1.bin_num
+num_1[2] <= counter:counter_num_1.bin_num
+num_1[3] <= counter:counter_num_1.bin_num
+done <= done.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:yellow|counter:counter_num_0
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|light:yellow|counter:counter_num_1
+clk => bin_num[0]~reg0.CLK
+clk => bin_num[1]~reg0.CLK
+clk => bin_num[2]~reg0.CLK
+clk => bin_num[3]~reg0.CLK
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+rst => bin_num.OUTPUTSELECT
+en => Decoder0.IN0
+bin_num[0] <= bin_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[1] <= bin_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[2] <= bin_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bin_num[3] <= bin_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|seven_seg_decoder:decoder_highway_0
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|seven_seg_decoder:decoder_highway_1
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|seven_seg_decoder:decoder_country_0
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|seven_seg_decoder:decoder_country_1
+bin_num[0] => Decoder0.IN3
+bin_num[1] => Decoder0.IN2
+bin_num[2] => Decoder0.IN1
+bin_num[3] => Decoder0.IN0
+seg_num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

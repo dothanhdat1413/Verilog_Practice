@@ -1,0 +1,105 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Simu
+T_opt
+!s110 1733053554
+VPz6lSV2BMz6[14o2mgIG41
+Z2 04 21 4 work test_sequential_adder fast 0
+=1-b42e998d9316-674c4c72-2a-67e4
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1733055983
+VYicJjhKM:KBD;kQ=e]4Z20
+R2
+=19-b42e998d9316-674c55ef-2d2-7508
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vsequential_adder
+Z6 !s110 1733055980
+!i10b 1
+!s100 P4<z26TZ5l6>6Ah=i7K[d1
+I<DB?5AV5TjaHfc9=P4VE01
+Z7 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/Simu
+w1733055362
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v
+!i122 74
+L0 1 92
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1733055980.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/sequential_adder.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtest_sequential_adder
+R6
+!i10b 1
+!s100 O56PV_1Tc>=FI`?UV^n@N1
+I9;DZ@:QkL5kGNgNh;??MA1
+R7
+w1733055975
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v
+!i122 75
+L0 1 76
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Sequential_Adder/test_sequential_adder.v|
+!i113 0
+R11
+R4

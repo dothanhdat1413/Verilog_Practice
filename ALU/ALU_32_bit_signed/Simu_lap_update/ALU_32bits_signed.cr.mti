@@ -1,0 +1,71 @@
+{C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul
+
+Top level modules:
+	mul
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/CLA.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/CLA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CLA
+
+Top level modules:
+	CLA
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_shr_seq.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_shr_seq.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul_shl
+
+Top level modules:
+	mul_shl
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_read.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_read.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_unit
+
+Top level modules:
+	test_unit
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module adder_mul
+
+Top level modules:
+	adder_mul
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_stroring_4bit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_stroring_4bit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module div_4bit
+
+Top level modules:
+	div_4bit
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/FA.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/FA.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul_booth_mod_4bit
+
+Top level modules:
+	mul_booth_mod_4bit
+
+} {} {}}

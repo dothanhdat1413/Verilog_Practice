@@ -1,0 +1,43 @@
+{C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_light
+
+Top level modules:
+	test_light
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_counter
+
+Top level modules:
+	test_counter
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module light
+
+Top level modules:
+	light
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v} {1 {vlog -work wworrk -vopt -stats=none {C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_traffic_light
+
+Top level modules:
+	test_traffic_light
+
+} {} {}}

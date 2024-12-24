@@ -1,0 +1,413 @@
+Analysis & Synthesis report for vending_machine
+Thu Sep  5 14:38:26 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "seven_seg_decoder:goods_1_seg"
+ 11. Port Connectivity Checks: "seven_seg_decoder:goods_0_seg"
+ 12. Port Connectivity Checks: "money:money_module|calculate:cal_3"
+ 13. Port Connectivity Checks: "money:money_module|calculate:cal_2"
+ 14. Port Connectivity Checks: "money:money_module|calculate:cal_1"
+ 15. Port Connectivity Checks: "money:money_module|calculate:cal_0"
+ 16. Post-Synthesis Netlist Statistics for Top Partition
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Sep  5 14:38:26 2024          ;
+; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                      ; vending_machine                                ;
+; Top-level Entity Name              ; vending_machine                                ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 239                                            ;
+;     Total combinational functions  ; 239                                            ;
+;     Dedicated logic registers      ; 44                                             ;
+; Total registers                    ; 44                                             ;
+; Total pins                         ; 83                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; vending_machine    ; vending_machine    ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                               ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; vv_money/money.v                 ; yes             ; User Verilog HDL File        ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/money.v     ;         ;
+; vv_money/calculate.v             ; yes             ; User Verilog HDL File        ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/calculate.v ;         ;
+; vending_machine.v                ; yes             ; User Verilog HDL File        ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v    ;         ;
+; seven_seg_decoder.v              ; yes             ; User Verilog HDL File        ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v  ;         ;
+; clock.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/clock.v              ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 239       ;
+;                                             ;           ;
+; Total combinational functions               ; 239       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 91        ;
+;     -- 3 input functions                    ; 63        ;
+;     -- <=2 input functions                  ; 85        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 152       ;
+;     -- arithmetic mode                      ; 87        ;
+;                                             ;           ;
+; Total registers                             ; 44        ;
+;     -- Dedicated logic registers            ; 44        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 83        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; get~input ;
+; Maximum fan-out                             ; 41        ;
+; Total fan-out                               ; 987       ;
+; Average fan-out                             ; 2.20      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                    ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                 ; Entity Name       ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-------------------+--------------+
+; |vending_machine                   ; 239 (25)            ; 44 (0)                    ; 0           ; 0            ; 0       ; 0         ; 83   ; 0            ; |vending_machine                                    ; vending_machine   ; work         ;
+;    |clock:clock_module|            ; 38 (38)             ; 28 (28)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|clock:clock_module                 ; clock             ; work         ;
+;    |money:money_module|            ; 138 (24)            ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|money:money_module                 ; money             ; work         ;
+;       |calculate:cal_0|            ; 17 (17)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|money:money_module|calculate:cal_0 ; calculate         ; work         ;
+;       |calculate:cal_1|            ; 39 (39)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|money:money_module|calculate:cal_1 ; calculate         ; work         ;
+;       |calculate:cal_2|            ; 29 (29)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|money:money_module|calculate:cal_2 ; calculate         ; work         ;
+;       |calculate:cal_3|            ; 29 (29)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|money:money_module|calculate:cal_3 ; calculate         ; work         ;
+;    |seven_seg_decoder:cash_0_seg|  ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:cash_0_seg       ; seven_seg_decoder ; work         ;
+;    |seven_seg_decoder:cash_1_seg|  ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:cash_1_seg       ; seven_seg_decoder ; work         ;
+;    |seven_seg_decoder:money_0_seg| ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:money_0_seg      ; seven_seg_decoder ; work         ;
+;    |seven_seg_decoder:money_1_seg| ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:money_1_seg      ; seven_seg_decoder ; work         ;
+;    |seven_seg_decoder:money_2_seg| ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:money_2_seg      ; seven_seg_decoder ; work         ;
+;    |seven_seg_decoder:money_3_seg| ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vending_machine|seven_seg_decoder:money_3_seg      ; seven_seg_decoder ; work         ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 44    ;
+; Number of registers using Synchronous Clear  ; 27    ;
+; Number of registers using Synchronous Load   ; 1     ;
+; Number of registers using Asynchronous Clear ; 16    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |vending_machine|clock:clock_module|clock_count[24]         ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |vending_machine|money:money_module|calculate:cal_2|temp[3] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |vending_machine|money:money_module|calculate:cal_3|temp[2] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |vending_machine|money:money_module|calculate:cal_1|temp[2] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |vending_machine|money:money_module|calculate:cal_0|temp[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "seven_seg_decoder:goods_1_seg" ;
++---------------+-------+----------+------------------------+
+; Port          ; Type  ; Severity ; Details                ;
++---------------+-------+----------+------------------------+
+; bin_num[3..2] ; Input ; Info     ; Stuck at GND           ;
++---------------+-------+----------+------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "seven_seg_decoder:goods_0_seg" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; bin_num ; Input ; Info     ; Stuck at GND                 ;
++---------+-------+----------+------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "money:money_module|calculate:cal_3" ;
++-------+-------+----------+-------------------------------------+
+; Port  ; Type  ; Severity ; Details                             ;
++-------+-------+----------+-------------------------------------+
+; num_1 ; Input ; Info     ; Stuck at GND                        ;
++-------+-------+----------+-------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "money:money_module|calculate:cal_2" ;
++-------+-------+----------+-------------------------------------+
+; Port  ; Type  ; Severity ; Details                             ;
++-------+-------+----------+-------------------------------------+
+; num_1 ; Input ; Info     ; Stuck at GND                        ;
++-------+-------+----------+-------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "money:money_module|calculate:cal_1" ;
++----------+-------+----------+----------------------------------+
+; Port     ; Type  ; Severity ; Details                          ;
++----------+-------+----------+----------------------------------+
+; num_1[3] ; Input ; Info     ; Stuck at GND                     ;
++----------+-------+----------+----------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "money:money_module|calculate:cal_0"                                                                                                                                                   ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                                                                                                            ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; num_1[3] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; num_1[1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; c_in     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; c_in[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 83                          ;
+; cycloneiii_ff         ; 44                          ;
+;     CLR               ; 15                          ;
+;     CLR SLD           ; 1                           ;
+;     SCLR              ; 27                          ;
+;     plain             ; 1                           ;
+; cycloneiii_lcell_comb ; 251                         ;
+;     arith             ; 87                          ;
+;         2 data inputs ; 52                          ;
+;         3 data inputs ; 35                          ;
+;     normal            ; 164                         ;
+;         0 data inputs ; 6                           ;
+;         1 data inputs ; 19                          ;
+;         2 data inputs ; 20                          ;
+;         3 data inputs ; 28                          ;
+;         4 data inputs ; 91                          ;
+;                       ;                             ;
+; Max LUT depth         ; 12.40                       ;
+; Average LUT depth     ; 7.09                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Thu Sep  5 14:38:19 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vending_machine -c vending_machine
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file vv_money/money.v
+    Info (12023): Found entity 1: money File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/money.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vv_money/calculate.v
+    Info (12023): Found entity 1: calculate File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/calculate.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vending_machine.v
+    Info (12023): Found entity 1: vending_machine File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file seven_seg_decoder.v
+    Info (12023): Found entity 1: seven_seg_decoder File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v Line: 1
+Info (12127): Elaborating entity "vending_machine" for the top level hierarchy
+Warning (10755): Verilog HDL warning at vending_machine.v(84): assignments to en_debounced create a combinational loop File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 84
+Warning (12125): Using design file clock.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: clock File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/clock.v Line: 1
+Info (12128): Elaborating entity "clock" for hierarchy "clock:clock_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 34
+Warning (10230): Verilog HDL assignment warning at clock.v(19): truncated value with size 32 to match size of target (27) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/clock.v Line: 19
+Info (12128): Elaborating entity "money" for hierarchy "money:money_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 58
+Info (12128): Elaborating entity "calculate" for hierarchy "money:money_module|calculate:cal_0" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/money.v Line: 33
+Warning (10230): Verilog HDL assignment warning at calculate.v(36): truncated value with size 32 to match size of target (4) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vv_money/calculate.v Line: 36
+Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "seven_seg_decoder:money_0_seg" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 132
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "goods_0[0]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[1]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[2]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[3]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[4]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[5]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_0[6]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 21
+    Warning (13410): Pin "goods_1[1]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 22
+    Warning (13410): Pin "goods_1[5]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v Line: 22
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 322 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 74 output pins
+    Info (21061): Implemented 239 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 4828 megabytes
+    Info: Processing ended: Thu Sep  5 14:38:26 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+
+

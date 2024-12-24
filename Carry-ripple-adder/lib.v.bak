@@ -1,0 +1,7 @@
+module fulladd(
+    input reg num1, num2, c_in,
+    output sum, c_out
+    );
+        assign sum = num1 ^ num2 ^ c_in;
+        assign c_out = (num1 & num2) | (num1 & c_in) | (num2 & c_in);
+endmodule

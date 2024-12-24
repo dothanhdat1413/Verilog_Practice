@@ -1,0 +1,40 @@
+7-segment led: Thiết kế bộ decode led 7 thanh
+     a__
+    f|_g|b
+    e|d_|c 
+-> decode: 
+0  (0000): abcdefg = 7'b1111110
+1  (0001): abcdefg = 7'b0110000
+2  (0010): abcdefg = 7'b1101101
+3  (0011): abcdefg = 7'b1111001
+4  (0100): abcdefg = 7'b0110011
+5  (0101): abcdefg = 7'b1011011
+6  (0110): abcdefg = 7'b1011111
+7  (0111): abcdefg = 7'b1110000
+8  (1000): abcdefg = 7'b1111111
+9  (1001): abcdefg = 7'b1111011
+
+default: 0000000
+10 (1010): abcdefg = 0001101
+11 (1011): abcdefg = 0011001
+12 (1100): abcdefg = 0100011
+13 (1101): abcdefg = 1001011
+14 (1110): abcdefg = 0001111
+15 (1111): abcdefg = 0000000
+
+- Behavioral:
+    + Mô tả đầu ra của mạch theo đầu vào (có thể sử dụng các khối thủ tục để lái tín hiệu, tín hiệu cần phải được khai báo là reg nếu sử dụng bên vế trái khối thủ tục)
+- Structural:
+    + Mô tả từng đầu vào, đầu ra của các cổng logic sử dụng trong mạch (sử dụng các module cổng logic sẵn có)
+- Dataflow:
+    + Mô tả quá trình dữ liệu đi qua mạch: nối các đường tín hiệu, đặt tên các biến trung gian (sử dụng assign để nối các đường tín hiệu, đặt các biến wire trung gian)
+-
+
+## Testbench
+- Cần đặt thời gian: timescale
+- Cần tạo môi trường test
+- Các cách test:
+    + Input: đọc file ($readmemh, $readmemb, có thể vào ra file giống C), sinh dữ liệu bên trong code verilog ($random), tự tạo sẵn các trường hợp test cụ thể
+    + Output: đọc file, tạo sẵn các trường hợp cụ thể, viết code bậc cao mô tả - có thể dùng systemverilog
+    - Ngoài việc test thủ công như trên thì trong công nghiệp sử dụng cách test chuyên nghiệp là UVM (ko chắc có đúng ko)
+    - Hướng test: có thể test full các trường hợp (vét cạn - bruteforce), hoặc random nhiều lần, kết hợp với các trường hợp cụ thể

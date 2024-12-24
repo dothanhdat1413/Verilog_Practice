@@ -1,0 +1,16 @@
+Cần kiểm tra xem số bit 1 có lớn hơn số bit 0 trong 32 số không
+
+- Đầu vào: số 32 bit adder
+- Đầu ra: z - kết quả, z = 1 khi số bit 1 lớn hơn số bit 0
+
+Cần đếm số lượng bit 1 trong số đó, sử dụng thuật toán Brian Kernighan
+
+trừ 1 của số đang cần xét, sau đó nhân số cũ với số mới thu được, lặp lại đến khi bằng 0
+
+sau đó kiểm tra số lượng bit 1 và bit 0, nếu bit 1 lớn hơn 16 thì thỏa mãn
+
+- Triển khai bằng verilog:
+    + Việc mô tả dữ liệu theo hướng thông dụng là i = i + 1 sẽ tạo latch trong khối thủ tục. do đó việc đếm ko nên dùng như cạnh. Để đếm được các bit thì ta có thể cộng dồn dần dần các bit lên
+    + Cần xây dựng các bộ cộng 2, 4, 8, 16, 32 bit gần giống nhau -> sử dụng genvar và generate để triển khai.
+
+ 

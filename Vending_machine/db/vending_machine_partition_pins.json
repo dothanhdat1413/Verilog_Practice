@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state[2]",
+					"strict" : false
+				},
+				{
+					"name" : "state[3]",
+					"strict" : false
+				},
+				{
+					"name" : "state[4]",
+					"strict" : false
+				},
+				{
+					"name" : "state[5]",
+					"strict" : false
+				},
+				{
+					"name" : "state[6]",
+					"strict" : false
+				},
+				{
+					"name" : "state[7]",
+					"strict" : false
+				},
+				{
+					"name" : "state[8]",
+					"strict" : false
+				},
+				{
+					"name" : "state[9]",
+					"strict" : false
+				},
+				{
+					"name" : "state[10]",
+					"strict" : false
+				},
+				{
+					"name" : "state[11]",
+					"strict" : false
+				},
+				{
+					"name" : "state[12]",
+					"strict" : false
+				},
+				{
+					"name" : "state[13]",
+					"strict" : false
+				},
+				{
+					"name" : "state[14]",
+					"strict" : false
+				},
+				{
+					"name" : "state[15]",
+					"strict" : false
+				},
+				{
+					"name" : "state[16]",
+					"strict" : false
+				},
+				{
+					"name" : "state[17]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "money_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "money_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "money_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "money_3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "goods_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "goods_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "goods_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "goods_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "goods_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cash_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "goods",
+					"strict" : false
+				},
+				{
+					"name" : "money[0]",
+					"strict" : false
+				},
+				{
+					"name" : "money[2]",
+					"strict" : false
+				},
+				{
+					"name" : "money[1]",
+					"strict" : false
+				},
+				{
+					"name" : "get",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "rst_clk",
+					"strict" : false
+				},
+				{
+					"name" : "clk_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v} {2 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: (vlog-6) -- Waiting for lock by "Do Thanh Dat@DESKTOP-UAER5P8, pid = 15900
+". Lockfile is "K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/A.Traffic/_lock".
+-- Compiling module light
+
+Top level modules:
+	light
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_traffic_light
+
+Top level modules:
+	test_traffic_light
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_counter
+
+Top level modules:
+	test_counter
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v} {1 {vlog -work A.Traffic -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_light
+
+Top level modules:
+	test_light
+
+} {} {}}

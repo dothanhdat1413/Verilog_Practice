@@ -1,0 +1,322 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Simu
+T_opt
+!s110 1725380407
+VPooLoz2N^8G6iUKN8T^MS3
+Z2 04 16 4 work test_input_money fast 0
+=3-b42e998d9316-66d73737-102-2bd4
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work Vending_machine +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1725433571
+V?DE7MK^SB>9ENe1=jXTh:0
+R2
+=30-b42e998d9316-66d806e3-2a3-4760
+R3
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+T_opt2
+!s110 1725424946
+VELGJ]P0ig]@EEV?_KF4=g2
+04 8 4 work test_add fast 0
+=4-b42e998d9316-66d7e531-34c-6bc
+R3
+R6
+R4
+n@_opt2
+R5
+R1
+vadd
+Z7 !s110 1725433568
+!i10b 1
+!s100 XW7mf2@42T8kBSY?J:m:S1
+IFY1E4n1Omko=^7W4TP?zJ1
+Z8 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine
+w1725423450
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v
+!i122 652
+Z9 L0 1 27
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1725433567.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vadd_cout
+!s110 1725387413
+!i10b 1
+!s100 >><`nQ;=CmIRb@n2M][EY2
+IK6?84[CKJ>cDMH>7lbC1B0
+R8
+w1725384397
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_cout.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_cout.v
+!i122 279
+R9
+R10
+R11
+r1
+!s85 0
+31
+!s108 1725387413.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_cout.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_cout.v|
+!i113 0
+R12
+R4
+vinput_money
+R7
+!i10b 1
+!s100 WfBCl85ESNl]2XNNhKY]Y2
+IM6j>bi?U0EDEPi^a]iM<_2
+R8
+w1725433418
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v
+!i122 653
+L0 1 177
+R10
+R11
+r1
+!s85 0
+31
+Z13 !s108 1725433568.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money.v|
+!i113 0
+R12
+R4
+voutput_get
+R7
+!i10b 1
+!s100 ARbJ>XRU<H9FL7[83bg7=2
+I<Ql<eSR2ZI8JM`ZYchUH60
+R8
+w1725390780
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/output_get.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/output_get.v
+!i122 654
+L0 1 82
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/output_get.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/output_get.v|
+!i113 0
+R12
+R4
+vseven_seg_decoder
+R7
+!i10b 1
+!s100 fCKM[OjboOh[[C:A=CmC]1
+Il?zKZCh0U1VJQIOgPn13Y0
+R8
+w1724387633
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v
+!i122 655
+L0 1 47
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/seven_seg_decoder.v|
+!i113 0
+R12
+R4
+vsubtract
+R7
+!i10b 1
+!s100 QI64Ci>Z0gQ6De0`W=cg83
+I8oGzlj1GXfP]6S9a2;^8_2
+R8
+w1725390866
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/subtract.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/subtract.v
+!i122 656
+L0 1 38
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/subtract.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/subtract.v|
+!i113 0
+R12
+R4
+vtest_add
+R7
+!i10b 1
+!s100 UZH>zB2g1a0CHScP]iTL?1
+ITCAFU9kDPOcb@IVhQ1I<Y2
+R8
+w1725424903
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v
+!i122 659
+L0 2 42
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/add_test.v|
+!i113 0
+R12
+R4
+vtest_input_money
+R7
+!i10b 1
+!s100 aKX>5g`4L<9<z9T]4X>I01
+I^4@U92ZR5@W`^AXDookGT2
+R8
+w1725433556
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v
+!i122 658
+L0 1 58
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/input_money_test.v|
+!i113 0
+R12
+R4
+vvending_machine
+R7
+!i10b 1
+!s100 0lC>X5M8]oA7GI;DNB6kn3
+ITHHh89nDN=m:`ji[kc>QY0
+R8
+w1725390935
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v
+!i122 657
+L0 1 148
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Vending_machine/vending_machine.v|
+!i113 0
+R12
+R4

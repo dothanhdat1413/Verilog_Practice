@@ -1,0 +1,4 @@
+Phase-locked loop (PLL): đây là 1 bộ chia tần, hoặc dịch pha cho tần số đầu vào
+nếu đã sử dụng PLL cho clk của 1 khối nào đó thì tất cả các khối còn lại cũngg nên dùng clk thông qua PLL, bất kể tần số
+
+PLL thường được config qua GUI của phần mềm biên dịch và nạp FPGA

@@ -1,0 +1,43 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v} {1 {vlog -work Century_clock -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Second/second.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module second
+
+Top level modules:
+	second
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/test_clock.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_clock
+
+Top level modules:
+	test_clock
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v} {1 {vlog -work Century_clock -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/seven_seg_decoder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/clock.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module clock
+
+Top level modules:
+	clock
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/Lib/Common/counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter_mod_10
+
+Top level modules:
+	counter_mod_10
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v} {1 {vlog -work Century_clock -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Century_clock/test_all.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_all
+
+Top level modules:
+	test_all
+
+} {} {}}

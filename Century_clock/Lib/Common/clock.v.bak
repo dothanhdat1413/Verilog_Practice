@@ -1,0 +1,17 @@
+module clock (
+    input clk_in, // 50Mhz
+    output reg clk_out,
+);
+    reg [26:0] clock_count = 0; // count to 50Mhz
+    always @(clk_in) begin
+        if(clock_count == 49999999) begin // đếm từ 0 đến 49.999.999 
+            clk_out <= 0;
+            clock_count <= 0;
+        end 
+        else begin
+            clk_out <= 1;
+            clock_count <= clock_count + 1;
+        end 
+    end
+    
+endmodule

@@ -1,0 +1,233 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "highway_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "country_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "country_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "check",
+					"strict" : false
+				},
+				{
+					"name" : "state_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "state_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "road[0]",
+					"strict" : false
+				},
+				{
+					"name" : "road[1]",
+					"strict" : false
+				},
+				{
+					"name" : "road[2]",
+					"strict" : false
+				},
+				{
+					"name" : "road[3]",
+					"strict" : false
+				},
+				{
+					"name" : "road[4]",
+					"strict" : false
+				},
+				{
+					"name" : "road[5]",
+					"strict" : false
+				},
+				{
+					"name" : "road[6]",
+					"strict" : false
+				},
+				{
+					"name" : "road[7]",
+					"strict" : false
+				},
+				{
+					"name" : "road[8]",
+					"strict" : false
+				},
+				{
+					"name" : "road[9]",
+					"strict" : false
+				},
+				{
+					"name" : "road[10]",
+					"strict" : false
+				},
+				{
+					"name" : "road[11]",
+					"strict" : false
+				},
+				{
+					"name" : "road[12]",
+					"strict" : false
+				},
+				{
+					"name" : "road[13]",
+					"strict" : false
+				},
+				{
+					"name" : "road[14]",
+					"strict" : false
+				},
+				{
+					"name" : "road[15]",
+					"strict" : false
+				},
+				{
+					"name" : "road[16]",
+					"strict" : false
+				},
+				{
+					"name" : "road[17]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "rst_clk",
+					"strict" : false
+				},
+				{
+					"name" : "clk_in",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "car",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

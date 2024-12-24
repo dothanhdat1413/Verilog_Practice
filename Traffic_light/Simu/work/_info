@@ -1,0 +1,213 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/Questasim/Install/examples
+T_opt
+!s110 1726301450
+V6JLCE6=SS4Si^cSQ]LB7A0
+Z2 04 18 4 work test_traffic_light fast 0
+=1-b03cdc26cd7a-66e54509-3c1-539c
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1726301781
+V5ERGNzl0@Ejn]`H2`iESg2
+R2
+=5-b03cdc26cd7a-66e54655-247-54a0
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+vclock
+!s110 1726301828
+!i10b 1
+!s100 GKRX_<GIU9k2O>JJ<S5C63
+I?>EISUT8McJn_XUBokN9O2
+Z6 dC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/Simu
+w1726298334
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/clock.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/clock.v
+!i122 64
+L0 1 24
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1726301828.000000
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/clock.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vcounter
+!s110 1726301830
+!i10b 1
+!s100 DEQI=FjlG@3>[BzigOFTV1
+IYe`B@;8hYE`BGNleHmo8d2
+R6
+w1726296407
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v
+!i122 65
+L0 1 53
+R7
+R8
+r1
+!s85 0
+31
+!s108 1726301830.000000
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/counter.v|
+!i113 0
+R9
+R4
+vlight
+!s110 1726301831
+!i10b 1
+!s100 hnYo]WoRkL??``<Wo@PmT2
+IiB]OG_ln2lAEBkVkZHHCg3
+R6
+w1726289476
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v
+!i122 66
+Z10 L0 1 33
+R7
+R8
+r1
+!s85 0
+31
+!s108 1726301831.000000
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/light.v|
+!i113 0
+R9
+R4
+vseven_seg_decoder
+Z11 !s110 1726301778
+!i10b 1
+!s100 fCKM[OjboOh[[C:A=CmC]1
+Ih>5H:FYO:<S`ZTzz7][jP2
+R6
+w1724387633
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v
+!i122 59
+L0 1 47
+R7
+R8
+r1
+!s85 0
+31
+Z12 !s108 1726301778.000000
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/seven_seg_decoder.v|
+!i113 0
+R9
+R4
+vtest_counter
+R11
+!i10b 1
+!s100 9dKh8<]UKZ2E>6bPCelTH2
+I[zPXH<>Hd@V:>Jj4ZoPCg3
+R6
+w1726132161
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v
+!i122 60
+R10
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_counter.v|
+!i113 0
+R9
+R4
+vtest_light
+R11
+!i10b 1
+!s100 Jk;bIGGU71CQ6RTI<jiWX3
+IOaGeK:d][:V@4_mcMl]m:2
+R6
+w1726133403
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v
+!i122 61
+L0 2 37
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_light.v|
+!i113 0
+R9
+R4
+vtest_traffic_light
+R11
+!i10b 1
+!s100 Z5i6^Q=hgI2^Hk;zB:QCg3
+IDf:VJ=F3`^ZZXUmDS7gmh1
+R6
+w1726301708
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v
+!i122 62
+L0 1 45
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/test_traffic_light.v|
+!i113 0
+R9
+R4
+vtraffic_light
+R11
+!i10b 1
+!s100 RmF7ffOQ@7e[0h85Dokbd2
+IUVc2fF=<mY2eFHO?a0k]:1
+R6
+w1726300751
+8C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v
+FC:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v
+!i122 63
+L0 1 238
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Traffic_light/traffic_light.v|
+!i113 0
+R9
+R4

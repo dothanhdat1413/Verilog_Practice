@@ -1,0 +1,45 @@
+{K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_ALU.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_ALU
+
+Top level modules:
+	test_ALU
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module add
+-- Compiling module CLA
+-- Compiling module FA
+
+Top level modules:
+	add
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_unit.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Test/test_unit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_unit
+
+Top level modules:
+	test_unit
+
+} {} {}} {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v} {1 {vlog -work work -vopt -stats=none {K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mul
+
+Top level modules:
+	mul
+
+} {} {}}

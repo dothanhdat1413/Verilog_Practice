@@ -1,0 +1,33 @@
+`timescale 1ns/1ns
+
+module test_majority ();
+    reg [31:0] num;
+    wire more_bit_1;
+
+    reg [31:0]  inputdata [32:0] ;
+    reg  expected_output [32:0] ;
+
+    majority DUT (
+        .num(num),
+        .more_bit_1(more_bit_1)
+    );  
+    integer i;  
+    initial begin : read_file
+        $display("_________________________Start test__________________________");
+      //  #10;
+        $readmemb("K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Verilog/Digital-design-lab/Majority/test_input.mem", inputdata);
+        $readmemb("K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Verilog/Digital-design-lab/Majority/test_output.mem", expected_output); 
+
+        for (i = 0; i < 32; i = i + 1) begin
+            num = inputdata[i];
+            #10;
+            if(more_bit_1 != expected_output[i])begin
+                $display("Test failed at %d", i);
+            end
+        end
+
+        // $display("_________________________End test__________________________");
+    end
+
+
+endmodule

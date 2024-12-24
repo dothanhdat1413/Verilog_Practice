@@ -1,0 +1,649 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dL:/Questasim/Install/examples
+T_opt
+!s110 1734249489
+V^M<z>FaOkKI_ODe6eJ48S2
+Z2 04 8 4 work test_ALU fast 0
+=1-b42e998d9316-675e8c10-243-9a4
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1734274696
+VU^1h_^Bc8k]:``BiDOiJk1
+R2
+=1-b42e998d9316-675eee88-178-205c
+R3
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1734275810
+V8E]E[87[V]KRog2RL2bQV0
+04 9 4 work test_unit fast 0
+=14-b42e998d9316-675ef2e1-338-24c8
+R3
+R6
+R4
+n@_opt2
+R5
+vadd
+Z7 !s110 1734275807
+!i10b 1
+!s100 ViWgJ4?U3b6fAF=0TO4k]2
+Iz7W6SEd];zh@1I`a8zc]K0
+Z8 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/Simu
+Z9 w1734264617
+Z10 8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v
+Z11 FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v
+!i122 3518
+L0 1 89
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z14 !s108 1734275806.000000
+Z15 !s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/add.v|
+!i113 0
+Z17 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vadder
+Z18 !s110 1734172012
+!i10b 1
+!s100 VkZAhOOg<@Cd4oU9]YLgf3
+IL<[4cKCSAEA5HX>GY4T=C3
+R8
+w1732289550
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v
+!i122 2685
+L0 1 34
+R12
+R13
+r1
+!s85 0
+31
+Z19 !s108 1734172012.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder.v|
+!i113 0
+R17
+R4
+vadder_mul
+R18
+!i10b 1
+!s100 n4mha;>TNI[Bj97e4h=3E1
+I5mOg3nUM93F9[^>niI2@a1
+R8
+w1732289900
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v
+!i122 2686
+L0 1 18
+R12
+R13
+r1
+!s85 0
+31
+R19
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/adder_mul.v|
+!i113 0
+R17
+R4
+vALU
+R7
+!i10b 1
+!s100 lJ]bNL]YhOL4OlBVOLSe>2
+IzUBQ=eg^YKSL6Z0AZACmO3
+R8
+w1734252117
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v
+!i122 3519
+L0 1 290
+R12
+R13
+r1
+!s85 0
+31
+Z20 !s108 1734275807.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/ALU.v|
+!i113 0
+R17
+R4
+n@a@l@u
+vCLA
+R7
+!i10b 1
+!s100 eQe7o8Z4XbV93VaUKihCi2
+IYV?Z169;<VOWfhR6VVUf23
+R8
+R9
+R10
+R11
+!i122 3518
+L0 91 59
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R4
+n@c@l@a
+vdiv
+R7
+!i10b 1
+!s100 0Xib<PSiGCdlE[=]_C<0T1
+Id9dUzGIjlCGlIJY1g>;5^0
+R8
+w1734233195
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v
+!i122 3520
+L0 1 214
+R12
+R13
+r1
+!s85 0
+31
+R20
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/div_non_storing.v|
+!i113 0
+R17
+R4
+vFA
+R7
+!i10b 1
+!s100 B7nATm=B8ZdzMWO[Q?LM<1
+IYoF:RmeQmb;2UDzTYn?HW0
+R8
+R9
+R10
+R11
+!i122 3518
+L0 151 10
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R4
+n@f@a
+vmul
+R7
+!i10b 1
+!s100 PaK`hHQXb<E5HQ:cMnez21
+IaLO>dcj5V`PMDohZJNW>T2
+R8
+w1734272591
+Z21 8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v
+Z22 FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v
+!i122 3521
+L0 1 197
+R12
+R13
+r1
+!s85 0
+31
+R20
+Z23 !s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod.v|
+!i113 0
+R17
+R4
+vmul_booth_mod
+R18
+!i10b 1
+!s100 lj<CFXjMgz6TVQH>doL7l1
+I^`1OIGiITWkAM5MzbK^UM2
+R8
+w1733540812
+R21
+R22
+!i122 2687
+Z25 L0 1 94
+R12
+R13
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R17
+R4
+vmul_booth_mod_4bit
+R18
+!i10b 1
+!s100 1:_42gEiR`im9_<il=84M1
+I:5LhdMbO^mfa6k;g9BedA2
+R8
+w1732919447
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v
+!i122 2688
+R25
+R12
+R13
+r1
+!s85 0
+31
+R19
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_signed/src/mul_booth_mod_4bit.v|
+!i113 0
+R17
+R4
+vmul_shl
+R18
+!i10b 1
+!s100 8Jc3dZl`8I7Ea[n1DZXCD1
+I[9IB9Kn>]S=mFg_Vb[m952
+R8
+w1732321763
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/ALU_32_bit_s

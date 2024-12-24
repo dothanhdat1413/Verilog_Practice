@@ -1,0 +1,29 @@
+module counter_mod_10 #(
+    parameter MAX = 9,
+    parameter MIN = 0
+)(
+    input clk,
+    input rst,
+    input en,
+    output reg [3:0] bin_num
+    );
+        
+    always @(posedge clk) begin
+        if(en == 1) begin
+            if(rst == 1) begin
+                bin_num <= MIN;
+            end
+            else begin
+                if(bin_num == MAX) begin
+                    bin_num <= MIN;
+                end
+                else begin
+                    bin_num <= ( bin_num + 1);
+                end
+            end
+        end
+        else begin
+            bin_num <= bin_num;
+            end
+    end
+endmodule

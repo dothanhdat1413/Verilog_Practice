@@ -1,0 +1,36 @@
+`timescale 1ns/1ns
+module test_CRA();
+    reg [7:0] num1, num2 ;
+    reg c_in;
+    wire [7:0] sum;
+    wire c_out;
+
+    CRA DUT(
+        .num1(num1),
+        .num2(num2),
+        .c_in(c_in),
+        .sum(sum),
+        .c_out(c_out)
+    );
+
+    integer i;
+    initial begin
+	$display("Helu");
+        #10;
+        for( i = 0; i < 10; i = i + 1)begin
+            #10;
+            num1 <= $random;
+            num2 <= $random;
+            c_in <= $random;
+        end
+    end
+
+    always @(num1, num2, c_in)begin
+        if({c_out,sum} != num1 + num2 - c_in)begin
+            $display("Error: num1 = %b, num2 = %b, c_in = %b, sum = %b, c_out = %b", num1, num2, c_in, sum, c_out);
+        end
+    end
+
+
+
+endmodule

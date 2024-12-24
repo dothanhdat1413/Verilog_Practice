@@ -1,0 +1,527 @@
+Analysis & Synthesis report for elevator
+Fri Oct 11 18:33:44 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |elevator|state
+  9. State Machine - |elevator|move_dir
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |elevator
+ 14. Parameter Settings for User Entity Instance: clock:clock_module
+ 15. Parameter Settings for User Entity Instance: cus_counter:cus_counter_module
+ 16. Parameter Settings for User Entity Instance: call_floor:call_floor_module
+ 17. Parameter Settings for User Entity Instance: choose_floor:choose_floor_module
+ 18. Port Connectivity Checks: "clock:clock_module"
+ 19. Post-Synthesis Netlist Statistics for Top Partition
+ 20. Elapsed Time Per Partition
+ 21. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Oct 11 18:33:44 2024          ;
+; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                      ; elevator                                       ;
+; Top-level Entity Name              ; elevator                                       ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 407                                            ;
+;     Total combinational functions  ; 405                                            ;
+;     Dedicated logic registers      ; 107                                            ;
+; Total registers                    ; 107                                            ;
+; Total pins                         ; 76                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; elevator           ; elevator           ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-12        ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                                       ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../one_hot_decoder.v             ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/one_hot_decoder.v   ;         ;
+; ../choose_floor.v                ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v      ;         ;
+; ../call_floor.v                  ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v        ;         ;
+; ../cus_counter.v                 ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v       ;         ;
+; ../seven_seg_decoder.v           ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v ;         ;
+; ../elevator.v                    ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v          ;         ;
+; ../clock.v                       ; yes             ; User Verilog HDL File  ; C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v             ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                              ;
++---------------------------------------------+----------------------------+
+; Resource                                    ; Usage                      ;
++---------------------------------------------+----------------------------+
+; Estimated Total logic elements              ; 407                        ;
+;                                             ;                            ;
+; Total combinational functions               ; 405                        ;
+; Logic element usage by number of LUT inputs ;                            ;
+;     -- 4 input functions                    ; 254                        ;
+;     -- 3 input functions                    ; 76                         ;
+;     -- <=2 input functions                  ; 75                         ;
+;                                             ;                            ;
+; Logic elements by mode                      ;                            ;
+;     -- normal mode                          ; 379                        ;
+;     -- arithmetic mode                      ; 26                         ;
+;                                             ;                            ;
+; Total registers                             ; 107                        ;
+;     -- Dedicated logic registers            ; 107                        ;
+;     -- I/O registers                        ; 0                          ;
+;                                             ;                            ;
+; I/O pins                                    ; 76                         ;
+;                                             ;                            ;
+; Embedded Multiplier 9-bit elements          ; 0                          ;
+;                                             ;                            ;
+; Maximum fan-out node                        ; clock:clock_module|clk_out ;
+; Maximum fan-out                             ; 60                         ;
+; Total fan-out                               ; 1803                       ;
+; Average fan-out                             ; 2.72                       ;
++---------------------------------------------+----------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                        ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name       ; Library Name ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------+-------------------+--------------+
+; |elevator                                          ; 405 (324)           ; 107 (59)                  ; 0           ; 0            ; 0       ; 0         ; 76   ; 0            ; |elevator                                               ; elevator          ; work         ;
+;    |call_floor:call_floor_module|                  ; 11 (11)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|call_floor:call_floor_module                  ; call_floor        ; work         ;
+;    |choose_floor:choose_floor_module|              ; 5 (5)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|choose_floor:choose_floor_module              ; choose_floor      ; work         ;
+;    |clock:clock_module|                            ; 48 (48)             ; 28 (28)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|clock:clock_module                            ; clock             ; work         ;
+;    |cus_counter:cus_counter_module|                ; 10 (10)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|cus_counter:cus_counter_module                ; cus_counter       ; work         ;
+;    |one_hot_decoder:one_hot_decoder_module|        ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|one_hot_decoder:one_hot_decoder_module        ; one_hot_decoder   ; work         ;
+;    |seven_seg_decoder:seven_seg_decoder_cur_floor| ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |elevator|seven_seg_decoder:seven_seg_decoder_cur_floor ; seven_seg_decoder ; work         ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------+-------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------+
+; State Machine - |elevator|state                   ;
++------------+------------+------------+------------+
+; Name       ; state.MOVE ; state.IDLE ; state.OPEN ;
++------------+------------+------------+------------+
+; state.IDLE ; 0          ; 0          ; 0          ;
+; state.OPEN ; 0          ; 1          ; 1          ;
+; state.MOVE ; 1          ; 1          ; 0          ;
++------------+------------+------------+------------+
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------+
+; State Machine - |elevator|move_dir                                                                    ;
++---------------------+-----------------+---------------------+-------------------+---------------------+
+; Name                ; move_dir.UP_DIR ; move_dir.U_STOP_DIR ; move_dir.DOWN_DIR ; move_dir.D_STOP_DIR ;
++---------------------+-----------------+---------------------+-------------------+---------------------+
+; move_dir.D_STOP_DIR ; 0               ; 0                   ; 0                 ; 0                   ;
+; move_dir.DOWN_DIR   ; 0               ; 0                   ; 1                 ; 1                   ;
+; move_dir.U_STOP_DIR ; 0               ; 1                   ; 0                 ; 1                   ;
+; move_dir.UP_DIR     ; 1               ; 0                   ; 0                 ; 1                   ;
++---------------------+-----------------+---------------------+-------------------+---------------------+
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; move_dir~4                            ; Lost fanout        ;
+; move_dir~5                            ; Lost fanout        ;
+; Total Number of Removed Registers = 2 ;                    ;
++---------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 107   ;
+; Number of registers using Synchronous Clear  ; 33    ;
+; Number of registers using Synchronous Load   ; 10    ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 25    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |elevator|idle_to_open_choose                               ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |elevator|wait_st                                           ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |elevator|cus_counter:cus_counter_module|num[3]             ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |elevator|cus_counter:cus_counter_module|clock_count[1]     ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |elevator|count[3]                                          ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 10 LEs               ; 5 LEs                  ; Yes        ; |elevator|move_fl[0]                                        ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 0 LEs                ; 10 LEs                 ; Yes        ; |elevator|off_choose_fl[3]                                  ;
+; 16:1               ; 5 bits    ; 50 LEs        ; 35 LEs               ; 15 LEs                 ; Yes        ; |elevator|choose_move[4]                                    ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |elevator|one_hot_decoder:one_hot_decoder_module|out_num[3] ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |elevator|move_dir                                          ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |elevator|move_dir                                          ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |elevator|Selector10                                        ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |elevator|state                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |elevator ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; TEST           ; 0     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clock:clock_module ;
++----------------+----------+-------------------------------------+
+; Parameter Name ; Value    ; Type                                ;
++----------------+----------+-------------------------------------+
+; TIME           ; 12499999 ; Signed Integer                      ;
++----------------+----------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cus_counter:cus_counter_module ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; MAX            ; 10000 ; Unsigned Binary                                    ;
+; MIN            ; 00001 ; Unsigned Binary                                    ;
+; WIDTH          ; 5     ; Signed Integer                                     ;
+; TIME           ; 3     ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: call_floor:call_floor_module ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 5     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: choose_floor:choose_floor_module ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; WIDTH          ; 5     ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "clock:clock_module" ;
++------+-------+----------+----------------------+
+; Port ; Type  ; Severity ; Details              ;
++------+-------+----------+----------------------+
+; rst  ; Input ; Info     ; Stuck at GND         ;
++------+-------+----------+----------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 76                          ;
+; cycloneiii_ff         ; 107                         ;
+;     ENA               ; 13                          ;
+;     ENA SCLR          ; 6                           ;
+;     ENA SCLR SLD      ; 5                           ;
+;     ENA SLD           ; 1                           ;
+;     SCLR              ; 20                          ;
+;     SCLR SLD          ; 2                           ;
+;     SLD               ; 2                           ;
+;     plain             ; 58                          ;
+; cycloneiii_lcell_comb ; 414                         ;
+;     arith             ; 26                          ;
+;         2 data inputs ; 26                          ;
+;     normal            ; 388                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 11                          ;
+;         2 data inputs ; 45                          ;
+;         3 data inputs ; 76                          ;
+;         4 data inputs ; 254                         ;
+;                       ;                             ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 4.17                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Fri Oct 11 18:33:07 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off elevator -c elevator
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/test_elevator.v
+    Info (12023): Found entity 1: test_elevator File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_elevator.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/test_call_floor.v
+    Info (12023): Found entity 1: test_call_floor File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_call_floor.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/one_hot_decoder.v
+    Info (12023): Found entity 1: one_hot_decoder File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/one_hot_decoder.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/choose_floor.v
+    Info (12023): Found entity 1: choose_floor File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/choose_floor.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/call_floor.v
+    Info (12023): Found entity 1: call_floor File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/call_floor.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/test_cus_counter.v
+    Info (12023): Found entity 1: test_cus_counter File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/test_cus_counter.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/cus_counter.v
+    Info (12023): Found entity 1: cus_counter File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/seven_seg_decoder.v
+    Info (12023): Found entity 1: seven_seg_decoder File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/seven_seg_decoder.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/elevator.v
+    Info (12023): Found entity 1: elevator File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 1
+Warning (12019): Can't analyze file -- file ../counter.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus-laptop/onedrive - hanoi university of science and technology/edabk lab/study/verilog/digital-design-lab/elevator/clock.v
+    Info (12023): Found entity 1: clock File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v Line: 2
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(28): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 28
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(29): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 29
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(38): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 38
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(39): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 39
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(40): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 40
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(41): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 41
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(45): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 45
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(46): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 46
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(47): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 47
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(66): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 66
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(67): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 67
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(86): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 86
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(201): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 201
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(202): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 202
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(203): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 203
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(204): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 204
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(205): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 205
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(206): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 206
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(207): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 207
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(208): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 208
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(209): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 209
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(210): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 210
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(793): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 793
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(794): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 794
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(795): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 795
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(796): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 796
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(811): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 811
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(812): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 812
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(813): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 813
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(814): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 814
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(815): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 815
+Warning (10222): Verilog HDL Parameter Declaration warning at elevator.v(816): Parameter Declaration in module "elevator" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 816
+Info (12127): Elaborating entity "elevator" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at elevator.v(103): truncated value with size 32 to match size of target (4) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 103
+Warning (10230): Verilog HDL assignment warning at elevator.v(106): truncated value with size 32 to match size of target (4) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 106
+Info (10264): Verilog HDL Case Statement information at elevator.v(300): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 300
+Info (10264): Verilog HDL Case Statement information at elevator.v(410): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 410
+Info (10264): Verilog HDL Case Statement information at elevator.v(430): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 430
+Info (10264): Verilog HDL Case Statement information at elevator.v(408): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 408
+Info (10264): Verilog HDL Case Statement information at elevator.v(470): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 470
+Info (10264): Verilog HDL Case Statement information at elevator.v(507): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 507
+Info (10264): Verilog HDL Case Statement information at elevator.v(538): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 538
+Info (10264): Verilog HDL Case Statement information at elevator.v(655): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 655
+Info (10264): Verilog HDL Case Statement information at elevator.v(675): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 675
+Info (10264): Verilog HDL Case Statement information at elevator.v(653): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 653
+Info (10264): Verilog HDL Case Statement information at elevator.v(704): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 704
+Info (10264): Verilog HDL Case Statement information at elevator.v(735): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 735
+Info (10264): Verilog HDL Case Statement information at elevator.v(702): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 702
+Info (10264): Verilog HDL Case Statement information at elevator.v(819): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 819
+Info (10264): Verilog HDL Case Statement information at elevator.v(839): all case item expressions in this case statement are onehot File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 839
+Info (12128): Elaborating entity "clock" for hierarchy "clock:clock_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 57
+Warning (10230): Verilog HDL assignment warning at clock.v(22): truncated value with size 32 to match size of target (27) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/clock.v Line: 22
+Info (12128): Elaborating entity "cus_counter" for hierarchy "cus_counter:cus_counter_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 79
+Warning (10230): Verilog HDL assignment warning at cus_counter.v(39): truncated value with size 32 to match size of target (2) File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/cus_counter.v Line: 39
+Info (12128): Elaborating entity "call_floor" for hierarchy "call_floor:call_floor_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 124
+Info (12128): Elaborating entity "choose_floor" for hierarchy "choose_floor:choose_floor_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 133
+Info (12128): Elaborating entity "one_hot_decoder" for hierarchy "one_hot_decoder:one_hot_decoder_module" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 787
+Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "seven_seg_decoder:seven_seg_decoder_cur_floor" File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 791
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "door_out_0[0]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 14
+    Warning (13410): Pin "door_out_0[3]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 14
+    Warning (13410): Pin "door_out_0[6]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 14
+    Warning (13410): Pin "door_out_1[0]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 15
+    Warning (13410): Pin "door_out_1[3]" is stuck at GND File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 15
+    Warning (13410): Pin "door_out_1[6]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 15
+    Warning (13410): Pin "move_dir_out_0[1]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 16
+    Warning (13410): Pin "move_dir_out_0[2]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 16
+    Warning (13410): Pin "move_dir_out_1[4]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 17
+    Warning (13410): Pin "move_dir_out_1[5]" is stuck at VCC File: C:/Users/ASUS-Laptop/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/elevator.v Line: 17
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 488 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 18 input pins
+    Info (21059): Implemented 58 output pins
+    Info (21061): Implemented 412 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 49 warnings
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Fri Oct 11 18:33:44 2024
+    Info: Elapsed time: 00:00:37
+    Info: Total CPU time (on all processors): 00:00:25
+
+

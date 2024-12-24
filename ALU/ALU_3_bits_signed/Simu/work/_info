@@ -1,0 +1,513 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/Elevator/Simu_pc
+T_opt
+!s110 1729609507
+VLd`<^g7mO>N^9I7:cUj@f0
+04 8 4 work test_mul fast 0
+=1-b42e998d9316-6717bf23-149-5214
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1729611087
+V5QPY4<]i0:IN:ISSjDDgJ2
+04 26 4 work test_mul_seven_seg_decoder fast 0
+=6-b42e998d9316-6717c54f-168-3a08
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1729648066
+VdRBXE7@=YgWd]<V?OganQ0
+04 15 4 work test_comparator fast 0
+=5-b42e998d9316-671855c2-1fc-1a0c
+R2
+R3
+R4
+n@_opt2
+R5
+vadd
+Z6 !s110 1729648060
+!i10b 1
+!s100 TzVHH]VI;Z_KFE61HKlQX2
+I0MSFe5LH0=RPmHV?M59_d0
+Z7 dK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Simu
+w1729531760
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v
+!i122 934
+L0 1 48
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1729648060.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/add.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vALU
+R6
+!i10b 1
+!s100 f]^iWS600<9jdmAhKNi5j2
+I;CIMfkk:9]hL>SE[1Y;R70
+R7
+w1729615218
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v
+!i122 935
+L0 1 320
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/ALU.v|
+!i113 0
+R11
+R4
+n@a@l@u
+vcarry_ripple_adder
+!s110 1729529472
+!i10b 1
+!s100 2iz;znJ7daBbRaU?1_dQ]2
+I;Ynon5n0meo1d=_EOYm7V0
+R7
+w1728956898
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v
+!i122 368
+L0 1 39
+R8
+R9
+r1
+!s85 0
+31
+!s108 1729529472.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/carry_ripple_adder.v|
+!i113 0
+R11
+R4
+vcomparator
+R6
+!i10b 1
+!s100 RUd@FJGU0o^PLiAf^HBcD3
+I2@AUZ147^STaE<SkXe@SN1
+R7
+w1729648057
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v
+!i122 936
+L0 14 24
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/comparator.v|
+!i113 0
+R11
+R4
+vCPA
+R6
+!i10b 1
+!s100 eX920_6:VEnX:d^:2Ah7I1
+IgO6laTL;4hDRYLN@FBPYL1
+R7
+w1729527778
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v
+!i122 937
+L0 1 7
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CPA.v|
+!i113 0
+R11
+R4
+n@c@p@a
+vCSA
+R6
+!i10b 1
+!s100 OGgnl^QmoMT;gCo=G_K@D3
+I3kC9:izF<ZmA<I5;QLb2Y0
+R7
+w1729004351
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v
+!i122 938
+L0 1 21
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/CSA.v|
+!i113 0
+R11
+R4
+n@c@s@a
+vdiv
+R6
+!i10b 1
+!s100 <z8C4z`d194SY4h:fC^Hd2
+I=Sh3I7O1OmYBIKYLGBJhi3
+R7
+w1729611183
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v
+!i122 939
+L0 1 174
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/div.v|
+!i113 0
+R11
+R4
+vdiv_3_bit
+!s110 1729392961
+!i10b 1
+!s100 9:Zkh8_j^kf7][=C0bejl0
+ITk]fO__TmJdR:JSkSn?oH1
+R7
+w1729392954
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v
+!i122 193
+L0 1 155
+R8
+R9
+r1
+!s85 0
+31
+!s108 1729392961.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/div.v|
+!i113 0
+R11
+R4
+vmul
+R6
+!i10b 1
+!s100 T2ABIGfF2o6hS4?PFDcz62
+IEkQQKUH>`RNSXaRL[ORGn0
+R7
+w1729587057
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v
+!i122 940
+L0 1 157
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul.v|
+!i113 0
+R11
+R4
+vmul_seven_seg_decoder
+R6
+!i10b 1
+!s100 8fh;DR695oPb0Nzn<FYNb1
+I9VI?E=HzZ<9>h3mb0>GIL3
+R7
+w1729610984
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v
+!i122 941
+L0 1 105
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/mul_seven_seg_decoder.v|
+!i113 0
+R11
+R4
+vneg
+R6
+!i10b 1
+!s100 >b[kZZ_kKXzh]7`2aS:fm1
+Iif=`RaH<FBlbR23fW>lXO3
+R7
+w1729614487
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v
+!i122 942
+L0 1 28
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/neg.v|
+!i113 0
+R11
+R4
+vsigned_seven_seg_decoder
+R6
+!i10b 1
+!s100 @Qhi54mFRkjIFi5i<h:G03
+I3dcN<;Ac^6C8`=UT2FKE83
+R7
+w1729593002
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v
+!i122 943
+L0 1 59
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/signed_seven_seg_decoder.v|
+!i113 0
+R11
+R4
+vsub
+R6
+!i10b 1
+!s100 ig92[aXAB`;FjPE_Ok@M<3
+IU4i0<i:2l^dflLoS6ng1S3
+R7
+w1729531651
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v
+!i122 944
+L0 1 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Design/sub.v|
+!i113 0
+R11
+R4
+vtest_ALU
+Z12 !s110 1729648061
+!i10b 1
+!s100 ]0HRmOVLn]a`S1EXVSJ6D3
+I==jM4D9n`EK^9OlTe1AFD2
+R7
+w1729532626
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v
+!i122 945
+L0 1 85
+R8
+R9
+r1
+!s85 0
+31
+Z13 !s108 1729648061.000000
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_ALU.v|
+!i113 0
+R11
+R4
+ntest_@a@l@u
+vtest_comparator
+R12
+!i10b 1
+!s100 LWTPZOdnhhUifTk4>;jE]3
+IM_QO5_]4^?;YKUlL_h>]b0
+R7
+w1729647340
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v
+!i122 950
+L0 1 50
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_comparator.v|
+!i113 0
+R11
+R4
+vtest_CSA
+R12
+!i10b 1
+!s100 0692Ga^MW=o9;lbofGmd@3
+ILjSNK>eh^<CG>MnRa<;Yg1
+R7
+w1729003601
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v
+!i122 946
+L0 1 52
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_CSA.v|
+!i113 0
+R11
+R4
+ntest_@c@s@a
+vtest_div
+R12
+!i10b 1
+!s100 Hm`W^16i`XkSlmU@R@eI;3
+IW238A9g2ka6djco_YJiFF1
+R7
+w1729414257
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v
+!i122 947
+L0 1 36
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_div.v|
+!i113 0
+R11
+R4
+vtest_mul
+R12
+!i10b 1
+!s100 BY5`YLk7W[zYIeFfYh8W:0
+I@@N1^_ZY<j0ez`MdWKf_Z3
+R7
+w1729393467
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v
+!i122 948
+L0 1 31
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul.v|
+!i113 0
+R11
+R4
+vtest_mul_seven_seg_decoder
+R12
+!i10b 1
+!s100 gjj0N38D>4JD9n:8HcO]j0
+I]9NO:00G3<]E<1b5o2AF02
+R7
+w1729610905
+8K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v
+FK:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v
+!i122 949
+L0 1 113
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/OneDrive - Hanoi University of Science and Technology/EDABK Lab/Study/Verilog/Digital-design-lab/ALU/Anh_Tung_Anh/Test/test_mul_seven_seg_decoder.v|
+!i113 0
+R11
+R4

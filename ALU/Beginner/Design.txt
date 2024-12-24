@@ -1,0 +1,32 @@
+Bộ ALU xử lý 8 bit đầu vào, cần sử dụng 8 toán tử
+- Đầu vào: 2 toán hạng a,b và opcode - chọn toán tử sẽ sử dụng
+- Đầu ra: kết quả result , trạng thái phép toán: c - dư, z - kết quả bằng 0, s - kết quả âm, o - overflow
+
+Các toán tử của ALU và opcode:
+
+cộng    000
+trừ     001
+chia    010
+&       011
+|       100
+^       101
+==      110
+>,      111    
+
+- Triển khai bằng verilog:
+    + Đầu ra được lái dựa trên opcode
+    + Thực hiện các phép toán bằng cách miêu tả behavioral đơn giản qua phương trình (trừ phép chia sẽ viết bằng thuật toán).
+        + Thuật toán phép chia: 
+            R'=0
+            for i=N-1 to 0 
+                R={R'<<1,Ai}
+                D=R-B
+                if (D<0) then Qi=0, R'=R (khi R<B)
+                else          Qi=1, R'=D (khi R>=B)
+            R=R'
+
+- Lưu ý về code:
+    + Trong khối thủ tục ko sử dụng assign. Ta sẽ hiểu assign là nối dây tín hiệu, còn khối thủ tục sẽ là lái đầu ra (giống bộ chọn tín hiệu MUX)
+    + Các vòng lặp nếu sử dụng ko cẩn thận sẽ ko thể synthesis được, vì trong phần cứng sẽ ko thực hiện như phần mềm. Thay vào đó khi muốn tạo nhiều khối, ta dùng genvar và generate
+    + Sử dụng các task, function cũng phải cẩn thận, chỉ nên thực hiện tính toán ko quá phức tạp, ko nên lái tín hiệu hay gán tín hiệu
+    + Nên cố gắng dùng wire nhiều

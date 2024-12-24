@@ -1,0 +1,48 @@
+Ripple carry adder các số 8 bit:
+- Đầu vào: 2 số a,b 8 bit, cin - phần dư đầu vào
+- Đầu ra: s - kết quả, cout - phần dư đầu ra
+
+Sẽ cộng dồn dần từ bit nhỏ nhất, phần carry được ripple qua từ đầu đến cuối
+
+các trường hợp cụ thể mô tả như sau:
+
+tại bit thứ i: 
+- a,b = 00, nếu cin = 0 thì s & cout = 0, nếu cin = 1 thì s = 1 & cout = 0
+- a,b = 01/10, nếu cin = 0 thì s = 1 & cout = 0, nếu cin = 1 thì s = 0 & cout = 1
+- a,b = 11, nếu cin = 0 thì s = 0 & cout = 1, nếu cin = 1 thì s = 1 & cout = 1
+
+vậy s = a XOR b XOR cin
+    cout = a.b +a.cin + b.cin
+gióng như a + b ra 1 số 2 bit, bit MSB sẽ là cout, bit LSB sẽ là s 
+
+- Code verilog:
+    + Tạo 1 biến c_out_t là các bit thể hiện tín hiệu dư của từng phép cộng nhỏ
+    + Tạo 1 module cộng fulladder, đầu vào là từng số 1 bit, đầu ra là kết quả 1 bit và dư của phép cộng đó, chính là c_out_t
+    + Nối các c_out_t [i] và các chữ số của đầu vào vào các khối full adder, đầu ra là các chữ số của đầu ra s và c_out
+    + Kết quả cuối cùng sẽ là s và c_out
+
+    - Code verilog bản hiển thị led - carry-ripple-adder:
+        + Nối đầu ra vào các con led để thể hiện chữ số nhị phân (chỉ đầu ra)
+        + Nối đầu vào vào các công tắc trên FPGA để người dùng tùy chỉnh 
+
+    - Code verilog bản hiển thị bằng led 7 thanh (cả đầu vào, đầu ra) - carry-ripple-adder-7-seg:
+        + Phần bộ cộng 2 số nhị phân vẫn như cũ. Phần đặc biệt hơn là bộ decoder (decode từ số 6-7 bit sang các số 4 bit, sau đó truyền vào module led 7 seg ở mục trên)
+        + Bộ decoder cần decode được số 6-7 bit sang 2-3 bit chữ số binary tương ứng hàng chục/ trăm/ đơn vị. Bình thường hay sử dụng các lệnh như :, % để tính ra được con số này. Tuy nhiên đây là tư duy phần mềm. Ở phần cứng việc :, % sẽ tốn rất nhiều tài nguyên, do đó dựa vào thuộc tính của các đầu vào đầu ra để viêt 2 module convert. 
+            + Convert - 2 số 4 bit
+            + Convert - 3 số 4 bit
+                -> sử dụng các bộ so sánh (chạy dần từ trên xuống dưới, ví dụ như max = 99 thì so sánh với 90, lớn hơn hoặc bằng 90 thì số hàng chục là 9), số còn lại sẽ tính theo đơn vị (ví dụ như in_num - 90 = num_bin[0])
+                -> để cho tiết kiệm, ta có thể dùng module convert sang 2 số 3 bit để thực hiện cho 2 bit sau của số 3bit, tuy nhiên đầu vào ở đây của 2 khối nếu để yên sẽ khác nhau (6 bit và 7 bit), để tối ưu, ta cứ để module convert sang 2 (6bit) là có đầu vào 7bit, và khi truyền ta gán bit thêm vào là 0 để chắc chắn ko bị tình trạng chập chờn của simulator
+- Lưu ý về code:
+    + có thể sử dụng parameter để xây dựng các module tổng quát, hay để config 1 số thuộc tính (giống C)
+    + thường hay lỗi ở việc khai báo các biến (reg, wire) ảnh hưởng việc nối dây của verilog
+
+- Quá trình thao tác FPGA:
+    + Tạo project mới đặt tên trùng tên module cần test. Cần chọn board cho chuẩn.
+    + Thêm file cho phù hợp: tên module chính muốn chạy phải cùng tên file
+    + Compile code: khi code chạy r thì ta sang bước tiếp theo
+    + Chọn pinplanner để set các chân đầu ra của FPGA
+    + Vào tool, chọn hardware.., chọn programmer và bấm start nạp code
+
+
+
+

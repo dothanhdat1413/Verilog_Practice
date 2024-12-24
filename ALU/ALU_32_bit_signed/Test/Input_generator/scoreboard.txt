@@ -1,0 +1,101 @@
+ ADD_A_SIZE = 1000;
+ ADD_B_SIZE = 1000;
+ ADD_C_SIZE = 1000;
+ ADD_Cout_SIZE = 1000;
+ ADD_A_WIDTH = 32;
+ ADD_B_WIDTH = 32;
+ ADD_C_WIDTH = 32;
+ ADD_Cout_WIDTH = 1;
+
+ SUB_A_SIZE = 1000;
+ SUB_B_SIZE = 1000;
+ SUB_C_SIZE = 1000;
+ SUB_Cout_SIZE = 1000;
+ SUB_A_WIDTH = 32;
+ SUB_B_WIDTH = 32;
+ SUB_C_WIDTH = 32;
+ SUB_Cout_WIDTH = 1;
+
+ MUL_M_SIZE = 1000;
+ MUL_Q_SIZE = 1000;
+ MUL_A_SIZE = 1000;
+ MUL_M_WIDTH = 32;
+ MUL_Q_WIDTH = 32;
+ MUL_A_WIDTH = 64;
+
+ DIV_Z_SIZE = 1000;
+ DIV_D_SIZE = 1000;
+ DIV_Q_SIZE = 1000;
+ DIV_R_SIZE = 1000;
+ DIV_Z_WIDTH = 64;
+ DIV_D_WIDTH = 32;
+ DIV_Q_WIDTH = 32;
+ DIV_R_WIDTH = 32;
+
+ INPUT_A_32        = "ADD&SUB_input_A.txt";
+ INPUT_B_32        = "ADD&SUB_input_B.txt";
+ OUTPUT_C_ADD      = "ADD_output_C.txt";
+ OUTPUT_Cout_ADD   = "ADD_output_Cout.txt";
+ OUTPUT_C_SUB      = "SUB_output_C.txt";
+ OUTPUT_Cout_SUB   = "SUB_output_Cout.txt";
+
+ INPUT_M_MUL       = "MUL_input_M.txt";
+ INPUT_Q_MUL       = "MUL_input_Q.txt";
+ OUTPUT_A_MUL      = "MUL_output_A.txt";
+
+ INPUT_Z_DIV       = "DIV_input_Z.txt";
+ INPUT_D_DIV       = "DIV_input_D.txt";
+ OUTPUT_Q_DIV      = "DIV_output_Q.txt";
+ OUTPUT_R_DIV      = "DIV_output_R.txt";
+ OUTPUT_FLAG_OVERFLOW_DIV = "DIV_flag_overflow.txt";
+
+DIRECTORY = "../../Simu/input_data"
+
+Trên đây là các thông số cho việc tạo input cho việc test, các số luôn là dạng signed bù 2, được lưu trong các file txt tương ứng phía dưới dạng Hex. Các trường hợp sẽ như sau:
+Hãy chia số lượng test case của từng test cho đều
+
+ADD Test:  A + B = {Cout,C}
+- Input A, B
+- Output C, Cout
+- Các trường hợp cận biên:
++ Số A cận biên âm
++ Số A cận biên dương 
++ Số B cận biên âm
++ Số B cận biên dương
++ Số A, B lớn để tạo ra Cout
+
+SUB Test: A - B = {Cout,C}
+- Input A, B
+- Output C, Cout
+- Các trường hợp cận biên:
++ Số A cận biên âm
++ Số A cận biên dương 
++ Số B cận biên âm
++ Số B cận biên dương
++ Số A, B lớn để tạo ra Cout
+
+MUL Test: A = M*Q
+- Input M, Q
+- Output A
+- Các trường hợp cận biên:
++ Số M cận biên âm
++ Số A cận biên dương 
++ Số M cận biên âm
++ Số A cận biên dương
++ Số M = 0
++ Số A = 0
++ Số M, A ở khoảng giữa
+
+DIV Test: Z/D = Q dư R, R phải cùng dấu với Z, có flag overflow khi thương vượt quá 32 bit
+- Input Z, D
+- Output Q, R
+- Các trường hợp cận biên:
++ Số Z cận biên âm
++ Số Z cận biên dương 
++ Số D cận biên âm
++ Số D cận biên dương
++ Số Z = 0
++ Số D = 0
++ Số Z, D ở khoảng giữa
++ Số Z lớn, D nhỏ hơn rất nhiều
+
